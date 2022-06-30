@@ -16,3 +16,6 @@ ng add @ngrx/store@latest
 
  ## install reducers
  ng generate reducer User --reducers reducers/index.ts
+
+ ## install actions
+ ng generate action User --group
