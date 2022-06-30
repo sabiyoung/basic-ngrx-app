@@ -19,3 +19,6 @@ ng add @ngrx/store@latest
 
  ## install actions
  ng generate action User --group
+
+ ## install selectors
+ ng generate selector User --group
