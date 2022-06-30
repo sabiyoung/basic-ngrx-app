@@ -15,6 +15,8 @@ export class ListUsersComponent implements OnInit {
 
   ngOnInit(): void {
   }
- 
+  selectUserId(id: number){
+    this.store.dispatch(actionSelectUserId({id}))
+  }
 
 }

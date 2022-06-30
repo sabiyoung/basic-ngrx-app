@@ -1,7 +1,8 @@
-<p>add-user works!</p>
-<button (click)="addUser()">add User</button>
+
+<h2>Users Form</h2>
 <form [formGroup]="form">
   <div><input placeholder="id" formControlName="id" type="text"></div>
   <div><input placeholder="name" formControlName="name" type="text"></div>
   <div><input placeholder="email" formControlName="email" type="text"></div>
 </form>
+<button (click)="addUser()">add User</button>
