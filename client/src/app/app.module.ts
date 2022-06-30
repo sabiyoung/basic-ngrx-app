@@ -7,10 +7,14 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { environment } from '../environments/environment';
 import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
+import { AddUserComponent } from './components/add-user/add-user.component';
+import { ListUsersComponent } from './components/list-users/list-users.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AddUserComponent,
+    ListUsersComponent
   ],
   imports: [
     BrowserModule,

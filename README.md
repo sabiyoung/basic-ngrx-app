@@ -22,3 +22,7 @@ ng add @ngrx/store@latest
 
  ## install selectors
  ng generate selector User --group
+
+ ## install components
+ng g c components/add-user
+ng g c components/list-users
