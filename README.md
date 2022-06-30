@@ -13,3 +13,6 @@ ng add @ngrx/store@latest
 
 ## install store, root state
  ng generate store State --root --module app.module.ts
+
+ ## install reducers
+ ng generate reducer User --reducers reducers/index.ts
