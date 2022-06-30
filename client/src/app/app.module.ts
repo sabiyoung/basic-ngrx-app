@@ -9,6 +9,7 @@ import { StoreModule } from '@ngrx/store';
 import { reducers, metaReducers } from './reducers';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { ListUsersComponent } from './components/list-users/list-users.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ListUsersComponent } from './components/list-users/list-users.component
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : []
