@@ -1,9 +1,12 @@
 # basic-ngrx-app
 First step
-generate the app
+## generate the app
 ng new client --routing --style scss --skip-tests
-install schematic
+## install schematic
 ng add @ngrx/schematics@latest
 
-install devtools
+#3 install devtools
 ng add @ngrx/store-devtools@latest
+
+## install ngrx store
+ng add @ngrx/store@latest
